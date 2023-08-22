@@ -51,25 +51,34 @@
 
 
 // # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise. 
-var x = 12;
-var y = 20; 
+// var x = 12;
+// var y = 20; 
 
-if (x > 10 || y > 10) {
-  console.log(100); 
-} else {
-  console.log(-100); 
-}
+// if (x > 10 || y > 10) {
+//   console.log(100); 
+// } else {
+//   console.log(-100); 
+// }
 
 // # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
 
-var x = -1; 
-if (x < 0) {
-  console.log(1776);
-} else {
-  console.log(1979); 
-}
+// var x = -1; 
+// if (x < 0) {
+//   console.log(1776);
+// } else {
+//   console.log(1979); 
+// }
 
 // # 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
+
+var x = 99; 
+if (x === 100) {
+  console.log(100); 
+} else if (x === 99) {
+  console.log(99); 
+} else {
+  console.log(0);
+}
 
 // # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
 
