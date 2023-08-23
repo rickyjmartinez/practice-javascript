@@ -46,6 +46,17 @@
 
 // # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
  
-var title = "the hobbit"; 
-var author = "jrr tolkien"; 
-console.log(`${title} was written by ${author}.`);
+// var title = "the hobbit"; 
+// var author = "jrr tolkien"; 
+// console.log(`${title} was written by ${author}.`);
+
+// # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+
+var inputPassword = "Joshua"; 
+if (inputPassword === "Joshua") {
+  console.log("Shall we play a game?"); 
+} else {
+  console.log("Access denied");
+}
+
+
