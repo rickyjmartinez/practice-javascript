@@ -8,4 +8,4 @@
 
 var first = "ricky"; 
 var last = "martinez"; 
-console.log(`${first} ${last}`)
+console.log(`${first} ${last}`);
