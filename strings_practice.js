@@ -40,6 +40,12 @@
 
 // # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
+// var title = "the hobbit"; 
+// var author = "jrr tolkien"; 
+// console.log(title + " was written by " + author + "."); 
+
+// # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
+ 
 var title = "the hobbit"; 
 var author = "jrr tolkien"; 
-console.log(title + " was written by " + author + "."); 
+console.log(`${title} was written by ${author}.`);
