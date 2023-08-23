@@ -26,7 +26,15 @@
 
 // # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
-var color1 = "purple"; 
-var color2 = "green"; 
-var color3 = "blue"; 
-console.log(`${color1}, ${color2}, and ${color3} are pretty.`); 
+// var color1 = "purple"; 
+// var color2 = "green"; 
+// var color3 = "blue"; 
+// console.log(`${color1}, ${color2}, and ${color3} are pretty.`); 
+
+// # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+var nameInput = "ricky"; 
+if (nameInput !== "santa") {
+  console.log("you're not Santa."); 
+}
+
