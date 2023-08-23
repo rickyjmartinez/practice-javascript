@@ -33,8 +33,13 @@
 
 // # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
-var nameInput = "ricky"; 
-if (nameInput !== "santa") {
-  console.log("you're not Santa."); 
-}
+// var nameInput = "ricky"; 
+// if (nameInput !== "santa") {
+//   console.log("you're not Santa."); 
+// }
 
+// # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+var title = "the hobbit"; 
+var author = "jrr tolkien"; 
+console.log(title + " was written by " + author + "."); 
