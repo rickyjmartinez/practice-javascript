@@ -12,7 +12,14 @@
 
 // # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 
-var input = "marco"; 
-if (input === "marco") {
-  console.log("polo");
-}
+// var input = "marco"; 
+// if (input === "marco") {
+//   console.log("polo");
+// }
+
+// # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+var color1 = "purple"; 
+var color2 = "red"; 
+var color3 = "green"; 
+console.log(color1 + ", " + color2 + ", " + "and " + color3 + " are pretty."); 
