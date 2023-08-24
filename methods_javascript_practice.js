@@ -12,6 +12,11 @@ if (inputNumber > 100 ) {
 
 // # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
+var numberOne = 37; 
+var numberTwo = 73; 
+
+console.log(numberOne + numberTwo); 
+
 // # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
 
 // # 5. Write a program that asks the user to enter a number, then prints the number times 10.
