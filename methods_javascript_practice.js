@@ -47,7 +47,7 @@ if (parseInt(inputNumber3) < 0 ) {
 // # 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 var inputNumber4 = window.prompt("enter a number");
 var inputNumber5 = window.prompt("enter a number"); 
-console.log(parseInt(inputNumber4)* parseInt(inputNumber5)); 
+console.log(parseInt(inputNumber4) * parseInt(inputNumber5)); 
 
 // # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
