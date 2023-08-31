@@ -50,4 +50,12 @@ def a_words(words)
   p filtered_words
 end
 
-a_words(["apple","ball","avalanche"])
+a_words(["apple", "ball", "avalanche"])
+
+# 5) Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
+
+def single_string(strings)
+  p strings.join(",")
+end
+
+single_string(["cat", "dog", "bird"])

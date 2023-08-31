@@ -132,3 +132,12 @@ function aWords(words) {
 }
 
 console.log(aWords(["apple","ball","avalanche"])); 
+
+// 5) Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
+function singleString(strings) {
+  console.log(strings.join(","));
+  
+}
+
+singleString(["cat", "dog", "bird"]); 
+
