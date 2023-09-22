@@ -93,8 +93,38 @@ console.log(lessTen);
 // #  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 // #     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
 
+var word3 = ["big", "little", "good", "bad"]; 
+var notB = []; 
+word3.forEach(function (word) {
+  if (word[0] !== "b") {
+    notB.push(word);
+  }
+});
+console.log(notB); 
+
 // #  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
 
+var items3 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]; 
+var lessTen$ = [] ; 
+
+items3.forEach(function (item) {
+  if (item.price < 10 ) {
+    lessTen$.push(item);
+  }
+});
+
+console.log(lessTen$); 
+
 // # 10. Start with an array of numbers and create a new array with only the odd numbers.
 // #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
+
+var num4 = [2, 4, 5, 1, 8, 9, 7];
+var odds = []; 
+num4.forEach(function (num) {
+  if (num % 2 === 1) {
+    odds.push(num);
+  } 
+});
+
+console.log(odds); 
