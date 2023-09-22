@@ -22,15 +22,45 @@ word.forEach(function (w) {
     winner.push(w);
   }
 });
-console.log (winner);
+console.log(winner);
 // #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
+
+var items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]; 
+var moreFive = []; 
+
+items.forEach(function (item) {
+  if (item.price > 5) {
+    moreFive.push(item); 
+  }
+});
+console.log(moreFive); 
 
 // #  4. Start with an array of numbers and create a new array with only the even numbers.
 // #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
 
+var num2 = [2, 4, 5, 1, 8, 9, 7]; 
+var evens = []; 
+num2.forEach(function (num) {
+  if (num % 2 === 0) {
+    evens.push(num);
+  }
+});
+console.log(evens); 
+
 // #  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 // #     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
+
+var words2 = ["a", "man", "a", "plan", "a", "canal", "panama"]; 
+var lessFour = []; 
+
+words2.forEach(function (word) {
+  if (word.length < 4) { 
+    lessFour.push(word);
+  }
+});
+
+console.log(lessFour); 
 
 // #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
