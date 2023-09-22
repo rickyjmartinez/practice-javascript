@@ -65,8 +65,30 @@ console.log(lessFour);
 // #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
 
+var items2 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]; 
+var lessSix = []; 
+
+items2.forEach(function (item) {
+  if (item.name.length < 6) {
+    lessSix.push(item); 
+  }
+});
+
+console.log(lessSix); 
+
 // #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 // #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
+
+var num3 = [8, 23, 0, 44, 1980, 3]; 
+var lessTen = []; 
+
+num3.forEach(function (num) {
+  if (num < 10) {
+    lessTen.push(num);
+  }
+});
+
+console.log(lessTen); 
 
 // #  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 // #     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
