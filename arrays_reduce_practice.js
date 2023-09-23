@@ -67,7 +67,7 @@ var items2 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "b
 var minItem = items2[0].price; 
 
 items2.forEach(function (item) {
-  if(minItem > item.price) {
+  if (minItem > item.price) {
     minItem = item; 
   }
 });
@@ -75,9 +75,25 @@ items2.forEach(function (item) {
 console.log(minItem); 
 // #  7. Start with an array of numbers and compute product of all the numbers.
 // #     For example, [5, 10, 8, 3] becomes 1200.
+var num3 = [5, 10, 8, 3]; 
+var product = 1; 
+
+num3.forEach(function (num) {
+  product = product * num; 
+});
+console.log(product); 
+
 
 // #  8. Start with an array of strings and combine them all into a single string, separated by dashes.
 // #     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
+
+var sport2 = ["volleyball", "basketball", "badminton"]; 
+var dash = "-"; 
+
+sports2.forEach(function (sport) {
+  dash = dash + sport + "-"; 
+});
+console.log(dash); 
 
 // #  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
