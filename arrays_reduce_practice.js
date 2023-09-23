@@ -48,12 +48,31 @@ num2.forEach(function (num) {
 });
 
 console.log(minNum); 
+
 // #  5. Start with an array of strings and compute the total length of all the strings.
 // #     For example, ["volleyball", "basketball", "badminton"] becomes 29.
+
+var sports2 = ["volleyball", "basketball", "badminton"]; 
+var sportLength = 0;
+sports2.forEach(function (sport) {
+  sportLength += sport.length;
+}); 
+console.log(sportLength); 
 
 // #  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
 
+var items2 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]; 
+
+var minItem = items2[0].price; 
+
+items2.forEach(function (item) {
+  if(minItem > item.price) {
+    minItem = item; 
+  }
+});
+
+console.log(minItem); 
 // #  7. Start with an array of numbers and compute product of all the numbers.
 // #     For example, [5, 10, 8, 3] becomes 1200.
 
