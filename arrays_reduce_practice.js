@@ -98,5 +98,24 @@ console.log(dash);
 // #  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
 
+var items3 = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}];  
+var minName = items3[0].name.length; 
+items3.forEach(function (item) {
+  if (minName > item.name.length) {
+    minName = item; 
+  }
+});
+console.log(minName); 
 // # 10. Start with an array of numbers and compute the maximum number.
 // #     For example, [5, 10, 8, 3] becomes 10.
+
+var num4 = [5, 10, 8, 3]; 
+var maxNum = num4[0]; 
+
+num4.forEach(function (num) {
+  if (maxNum < num) {
+    maxNum = num; 
+  }
+});
+
+console.log(maxNum);
