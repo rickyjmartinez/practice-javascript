@@ -38,6 +38,16 @@ console.log(cost);
 // #  4. Start with an array of numbers and compute the the minumum number.
 // #     For example, [5, 10, 8, 3, 9] becomes 3.
 
+var num2 = [5, 10, 8, 3, 9]; 
+var minNum = num2[0];
+
+num2.forEach(function (num) {
+  if (minNum > num) {
+    minNum = num;
+  }
+});
+
+console.log(minNum); 
 // #  5. Start with an array of strings and compute the total length of all the strings.
 // #     For example, ["volleyball", "basketball", "badminton"] becomes 29.
 
