@@ -133,4 +133,4 @@ console.log(`the book ${m} was written by ${n}`);
 let o = "chicago"; 
 let p = "mexico city";
 let q = "paris"; 
-console.log("three cities in the world are " + o + " " + p + " " + q)
+console.log("three cities in the world are " + o + " " + p + " " + q); 
