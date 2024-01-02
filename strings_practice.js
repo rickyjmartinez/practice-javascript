@@ -184,8 +184,29 @@ console.log(`${i} ${j} ${k}`);
 
 // # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
+let title = "the hobbit"; 
+let author = "jrr tolkien"; 
+
+console.log(title + " was written by " + author + "."); 
+
 // # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
+
+console.log(`${title} was written by ${author}.`); 
 
 // # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
+let input = "ricky"; 
+
+if (input === "Joshua") {
+  console.log("Shall we play a game?");
+} else {
+  console.log("access denined"); 
+}
+
 // # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+let m = "chicago"; 
+let n = "denver"; 
+let o = "san diego"; 
+
+console.log("three cities are " + m + ", " + n + ", " + "and " + o); 
