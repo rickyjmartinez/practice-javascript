@@ -292,14 +292,61 @@ while (b <= 5) {
 
 // # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
+let c = 0; 
+while (c <= 100) {
+  console.log(c);
+  c += 5;
+}
+
+for (i = 0; i <= 100; i += 5) {
+  console.log(i);
+}
+
 // # 5. Write a while loop that prints the number 9000 ten times.
+
+let d = 0; 
+while (d < 10) {
+  console.log(9000); 
+  d++;
+}
 
 // # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
+// while (true) {
+//   let num = window.prompt("please enter a number"); 
+//   if (parseInt(num) > 10) {
+//     break;
+//   }
+// }
+
 // # 7. Write a while loop that prints the numbers 50 to 70.
+
+let e = 50; 
+while (e <= 70) {
+  console.log(e); 
+  e++;
+}
 
 // # 8. Write a while loop that prints the phrase "Around the world" 144 times.
 
+let f = 0; 
+while (f < 145) {
+  console.log("around the world"); 
+  f++;
+} 
 // # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
+// while (true) {
+//   let input = window.prompt("please enter a word"); 
+//   if (input.length > 5) { 
+//     break;
+//   }
+// }
+
 // # 10. Write a while loop that prints the even numbers from 2 to 40.
+
+let g = 2; 
+while (g <= 40) {
+  console.log(g);
+  g += 2;
+}
